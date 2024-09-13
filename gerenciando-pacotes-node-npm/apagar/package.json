@@ -1,0 +1,22 @@
+{
+  "name": "apagar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@valapi/valorant-api.com": "^5.0.0-beta.3",
+    "apagar": "file:",
+    "wifi-password": "^3.0.1"
+  },
+  "devDependencies": {
+    "log-symbols": "^7.0.0"
+  }
+}
