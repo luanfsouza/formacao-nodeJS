@@ -14,7 +14,7 @@
   "dependencies": {
     "@valapi/valorant-api.com": "^5.0.0-beta.3",
     "apagar": "file:",
-    "wifi-password": "^3.0.1"
+    "wifi-password": "^3.0.0"
   },
   "devDependencies": {
     "log-symbols": "^7.0.0"

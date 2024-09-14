@@ -23,6 +23,7 @@ async function getRandomBlock() {
   let result;
 
   switch (true) {
+    
     case random <= 0.33:
       result = "RETA";
       break;
