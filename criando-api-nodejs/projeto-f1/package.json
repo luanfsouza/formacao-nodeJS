@@ -1,0 +1,28 @@
+{
+  "name": "projeto-f1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@fastify/cors": "^10.0.0",
+    "esbuild": "^0.23.1",
+    "fastify": "^5.0.0",
+    "get-tsconfig": "^4.8.1",
+    "projeto-f1": "file:",
+    "resolve-pkg-maps": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:prod": "tsx --env-file=.env --watch src/server.ts",
+    "dist": "npx tsc",
+    "start:build": "npm run dist && node --watch --env-file=.env dist/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
