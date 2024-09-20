@@ -1,0 +1,26 @@
+[
+  {
+    "podcastName": "flow",
+    "episodio": "CBUM - Flow #319",
+    "videoId": "tTUd23ii4lk",
+    "category": ["saude", "bodybuilder"]
+  },
+  {
+    "podcastName": "inteligencia limitada",
+    "episodio": "CBUM - Flow #342",
+    "videoId": "apowm2bMcFk",
+    "category": ["espote", "corrida"]
+  },
+  {
+    "podcastName": "venus",
+    "episodio": "CBUM - Flow #342",
+    "videoId": "apowm2bMcFk",
+    "category": ["entretenimento", "pensativo"]
+  },
+  {
+    "podcastName": "xj",
+    "episodio": "CBUM - Flow #342",
+    "videoId": "apowm2bMcFk",
+    "category": ["vida social", "humor"]
+  }
+]

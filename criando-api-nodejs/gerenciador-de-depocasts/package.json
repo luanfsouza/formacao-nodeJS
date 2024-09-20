@@ -1,0 +1,25 @@
+{
+  "name": "gerenciador-de-depocasts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:prod": "tsx --env-file=.env --watch src/server.ts",
+    "dist": "npx tsc",
+    "start:dist": "npm run dist && node --env-file=.env --watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "gerenciador-de-depocasts": "file:"
+  }
+}
